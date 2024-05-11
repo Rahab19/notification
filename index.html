@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h2>Notifications</h2>
+        <h3>3</h3>
+        <span>
+          <p>Mark all as read</p>
+        </span>
+      </div>
+
+      <!-- Mark Webber -->
+      <div class="user-card-a">
+        <div class="left-div">
+          <img src="./assets/images/avatar-mark-webber.webp" alt="mark" />
+        </div>
+
+        <div class="right-div">
+          <h4>Mark Webber</h4>
+          <p>reacted to your recent post</p>
+          <p id="post-link">My first tournament today!</p>
+          <div id="red-dot"></div>
+          <br />
+          <p id="time-date">1m ago</p>
+        </div>
+      </div>
+
+      <!-- Angela Gray -->
+      <div class="user-card-a">
+        <div class="left-div">
+          <img src="./assets/images/avatar-angela-gray.webp" alt="mark" />
+        </div>
+        <div class="right-div">
+          <h4>Angela gray</h4>
+          <p>followed you</p>
+          <div id="red-dot"></div>
+          <br />
+          <p id="time-date">5m ago</p>
+        </div>
+      </div>
+
+      <!-- Jacob Thompson -->
+      <div class="user-card-a">
+        <div class="left-div">
+          <img src="./assets/images/avatar-jacob-thompson.webp" alt="mark" />
+        </div>
+        <div class="right-div">
+          <h4>Jacob Thompson</h4>
+          <p>has joined your group</p>
+          <p id="post-link-a">Chess Club</p>
+          <div id="red-dot"></div>
+          <br />
+          <p id="time-date">1 day ago</p>
+        </div>
+      </div>
+
+      <!-- Rizky Hasanuddin -->
+      <div class="user-card-with-message">
+        <div class="user-card-ia">
+          <div class="left-div">
+            <img
+              src="./assets/images/avatar-rizky-hasanuddin.webp"
+              alt="mark"
+            />
+          </div>
+          <div class="right-div">
+            <h4>Rizky Hasanuddin</h4>
+            <p>sent you a private message</p>
+            <br />
+            <p id="time-date">5 days ago</p>
+          </div>
+        </div>
+
+        <div class="private-message">
+          <p>
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </p>
+        </div>
+      </div>
+
+      <!-- Kimberly Smith -->
+      <div class="user-card-ia">
+        <div class="left-div">
+          <img src="./assets/images/avatar-kimberly-smith.webp" alt="mark" />
+        </div>
+        <div class="right-div">
+          <h4>Kimberly Smith</h4>
+          <p>commented on your picture</p>
+          <img id="commented-image" src="./assets/images/image-chess.webp" alt="commented picture">
+          <br />
+          <p id="time-date">1 week ago</p>
+        </div>
+      </div>
+
+       <!-- Nathan Peterson -->
+       <div class="user-card-ia">
+        <div class="left-div">
+          <img src="./assets/images/avatar-nathan-peterson.webp" alt="mark" />
+        </div>
+        <div class="right-div">
+          <h4>Nathan Peterson</h4>
+          <p>reacted to your recent post</p>
+          <p id="post-link">5 end-game strategies to</p>
+          
+          <br/>
+          <p id="time-date">2 weeks ago</p>
+        </div>
+      </div>
+
+      <!-- Anna Kim -->
+      <div class="user-card-ia">
+        <div class="left-div">
+          <img src="./assets/images/avatar-anna-kim.webp" alt="mark" />
+        </div>
+        <div class="right-div">
+          <h4>Anna Kim</h4>
+          <p>left the group</p>
+          <p id="post-link-a">Chess club</p>
+          
+          <br/>
+          <p id="time-date">2 weeks ago</p>
+        </div>
+      </div>
+
+
+    
+
+
+    </div>
+  </body>
+</html>

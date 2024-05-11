@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap);
+* {
+  body {
+    font-family: Epilogue;
+  }
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 763px;
+  height: 900px;
+  /* background-color: blueviolet; */
+  padding: 10dp;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.header h2 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.header h3 {
+  display: inline-block;
+  background-color: rgba(0, 0, 255, 0.841);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 17px;
+}
+.header p {
+  display: inline-block;
+  color: #7d7d7d;
+  font-weight: 500;
+  font-size: 17px;
+}
+.header span {
+  float: right;
+
+}
+
+.header p:hover {
+    color:blue;
+}
+
+.user-card-a {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(184, 187, 244, 0.942);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #7a7a7a43;
+}
+
+.user-card-a h4:hover {
+    color:blue;
+}
+
+
+
+.left-div {
+  background-color: rgba(210, 105, 30, 0);
+  display: inline-block;
+  vertical-align: middle;
+}
+.left-div img {
+  height: 75px;
+  width: 75px;
+}
+
+.right-div {
+  background-color: rgba(255, 255, 255, 0);
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  height: 60px;
+ 
+
+
+}
+.right-div h4 {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.773);
+  font-size: 18px;
+  margin-top: -0px;
+  margin-right: 5px;
+}
+.right-div p {
+  display: inline-block;
+  color: #7d7d7d;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: -0px;
+}
+
+.right-div #post-link {
+  display:inline-block;
+  color: #5a5454;
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: -0px;
+}
+.right-div #time-date {
+  margin-top: -40px;
+}
+.right-div #red-dot {
+  display: inline-block;
+  width: 7px; /* Adjust the width of the dot */
+  height: 7px; /* Adjust the height of the dot */
+  background-color: red; /* Set the background color to red */
+  border-radius: 50%; /* Make it a circle */
+}
+
+/* additional right div styling */
+.right-div #post-link-a {
+  display: inline-block;
+  color: blue;
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: -0px;
+}
+.user-card-with-message {
+  margin-bottom: 120px;
+}
+
+.user-card-ia {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(184, 187, 244, 0);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #7a7a7a00;
+}
+.user-card-ia h4:hover {
+    color:blue;
+}
+
+.private-message {
+  width: 65%;
+  float: right;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(184, 187, 244, 0);
+  color: #7d7d7d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #7a7a7ac2;
+}
+.private-message:hover {
+    background-color: rgba(184, 187, 244, 0.942);
+}
+
+.user-card-ia #commented-image {
+    height: 65px;
+    width: 65px;
+    margin-left: 167px;
+    vertical-align: middle;
+    float: right;
+}
+
+/*  additional post link styling */
+
+.right-div span{
+    display:inline;
+    color: #f30d0d;
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: -0px;
+  }
